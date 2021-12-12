@@ -1,0 +1,17 @@
+#??? ??? ?? ip? ????.
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-service
+
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: '{cipher}3cf209cb3bb6ce87f5f0792f4a36f43c9bf4487a7c13ea8109e362ef4830206ecdb3a71cf6f9f0965a161622e103af930a2d2ad58cde10d071fb10d75c4d3b0ed972d6333c1cd87e009ab931b31b2531'
+          default-label: main
+          username: lawshop
+          password: '{cipher}74c55f09935f3ef5b581862a7ee13c5ce498f07282eaf6363877d9f491bb470c1f1b57fe53bfb9cfc509dfac0f39ad686e4688c0c558ea0395805f8125408c74'
